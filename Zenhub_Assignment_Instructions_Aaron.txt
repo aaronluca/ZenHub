@@ -1,0 +1,46 @@
+ZenHub Assignment Test Instructions
+
+1. Test Objective
+This test script is to automate the testing as per "QA Candidate Automation Assignment", please refer to the document for all the testing steps details.
+
+2. Test Environment
+Python 3.9.0
+Selenium 3.141.0
+Google Chrome 88.0.4324.146 (64-bit)
+ChromeDriver 2.39
+
+3. Test Setup
+i) To install Python 3.9.0:
+a) Go to https://www.python.org
+b) Click on Tab Downloads -> Download for Windows -> Python 3.9.0
+c) During the installation, to make sure the 'pip' is installed
+d) Add the folders \\python39 and \\python39\scripts to the system path
+
+ii) To install Selenium 3.141.0:
+a) From the command prompt, to run 'pip install -U selenium' to install Selenium for Python
+b) Make sure Selenium is installed successfully
+
+iii) To install ChromeDriver 2.39:
+a) This test uses Google Chrome as the default browser
+b) Go to https://sites.google.com/a/chromium.org/chromedriver/downloads
+c) Pick up the appropriate version to download chromedriver_win32.zip
+d) Unzip it to retrieve chromedriver.exe, to put it into a folder, and add that folder to the system path
+
+4. Test Execution
+a) Open a new command prompt (so that the new system path will be applied)
+b) Go to the folder where the automation test script is located, e.g. the folder with Zenhub_Assignment_Aaron.py
+c) Run command 'Zenhub_Assignment_Aaron.py'
+
+5. Test Expected Results
+If all the testing passed, you will see a message line "All the testing has been passed without error!". Otherwise, you will see error messages to indicate what element is not found.
+
+
+
+Suggestions for the possible improvement of the website and blog:
+
+1) For the popular tags section, currently the html element is <aside class='widget widget-tags>
+It will be helpful if there is a unique and meaningful id to be added for that element.
+
+2) On the blog page, the top section which includes the Blog Homepage link and the Zenhub picture, the element is <div id='primary' class ='content-area'>
+It will be helpful if there is a unique and meaningful id to be added for that element.
+
